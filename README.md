@@ -1,6 +1,6 @@
 # Digital-electronics-1
 
-## labs
+## Lab
 
 ### 1. cviceni
 
