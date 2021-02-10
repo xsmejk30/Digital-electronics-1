@@ -2,7 +2,7 @@
 
 ## Lab
 
-### 1. cviceni
+### 1. lab
 
 
 **Source code**
