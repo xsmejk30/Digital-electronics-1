@@ -1,6 +1,6 @@
 # Labs 01-Gates
 ## Part One: Link to the repository
-Link:
+### Link EDA: https://www.edaplayground.com/x/giGh
 | **c** | **b** |**a** | **f(c,b,a)** |
 | :-: | :-: | :-: | :-: |
 | 0 | 0 | 0 | 1 |
@@ -12,9 +12,7 @@ Link:
 | 1 | 1 | 0 | 0 |
 | 1 | 1 | 1 | 0 |
 
-Part Three: Verification of De Morgan's laws
-Link to EDA
-code:
+###code:
 ```vhdl
 architecture dataflow of gates is
 begin
@@ -25,7 +23,7 @@ end architecture dataflow;
 ```
 screen: 
 ## Part Three: Verification of Distributive laws
-### Link to EDA:
+### Link EDA:https://www.edaplayground.com/x/6Xz5
 ```vhdl
 architecture dataflow of gates is
 begin
