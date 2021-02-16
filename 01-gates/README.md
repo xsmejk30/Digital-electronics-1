@@ -1,5 +1,5 @@
-#Labs 01-Gates
-##Part One: Link to the repository
+# Labs 01-Gates
+## Part One: Link to the repository
 Link:
 | **c** | **b** |**a** | **f(c,b,a)** |
 | :-: | :-: | :-: | :-: |
@@ -24,8 +24,8 @@ begin
 end architecture dataflow;
 ```
 screen: 
-##Part Three: Verification of Distributive laws
-###Link to EDA:
+## Part Three: Verification of Distributive laws
+### Link to EDA:
 ```vhdl
 architecture dataflow of gates is
 begin
