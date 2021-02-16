@@ -3,8 +3,19 @@
 ## Lab
 
 ### 1. lab
-https://github.com/xsmejk30/Digital-electronics-1/blob/main/nor.png
 
+| **c** | **b** |**a** | **f(c,b,a)** |
+| :-: | :-: | :-: | :-: |
+| 0 | 0 | 0 | 1 |
+| 0 | 0 | 1 | 1 |
+| 0 | 1 | 0 | 0 |
+| 0 | 1 | 1 | 0 |
+| 1 | 0 | 0 | 0 |
+| 1 | 0 | 1 | 1 |
+| 1 | 1 | 0 | 0 |
+| 1 | 1 | 1 | 0 |
+ 
+ 
 **Source code**
 ```VHDL
 
