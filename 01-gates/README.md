@@ -1,5 +1,7 @@
 # Labs 01-Gates
 ## Part One: Link to the repository
+#### Link:https://github.com/xsmejk30/Digital-electronics-1/tree/main/01-gates
+## Part Two: Verification of De Morgan's laws
 ### Link EDA: https://www.edaplayground.com/x/giGh
 | **c** | **b** |**a** | **f(c,b,a)** |
 | :-: | :-: | :-: | :-: |
