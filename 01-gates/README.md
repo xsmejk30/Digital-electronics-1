@@ -12,7 +12,7 @@
 | 1 | 1 | 0 | 0 |
 | 1 | 1 | 1 | 0 |
 
-###code:
+#### code:
 ```vhdl
 architecture dataflow of gates is
 begin
@@ -21,9 +21,10 @@ begin
     fnor_o   <= ((a_i nor (not c_i)) nor b_i);
 end architecture dataflow;
 ```
-screen: 
-## Part Three: Verification of Distributive laws
+#### screen:![alt text] (https://github.com/xsmejk30/Digital-electronics-1/blob/main/digitaly.png?fbclid=IwAR3nLEXceZwbw98g-_B40AIUPXIWIC6RmsHTrhoYBw_vu8Q_8KIQ8spEoJ8?raw=true)
+## Part Three: Verification of Distributive laws 
 ### Link EDA:https://www.edaplayground.com/x/6Xz5
+#### code:
 ```vhdl
 architecture dataflow of gates is
 begin
@@ -37,4 +38,5 @@ begin
     f22_o <= (x_i or (y_i and  z_i));
 end architecture dataflow;
 ```
-screen:
+#### screen:![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/digitaly2.png?raw=true) 
+
