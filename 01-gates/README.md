@@ -21,7 +21,7 @@ begin
     fnor_o   <= ((a_i nor (not c_i)) nor b_i);
 end architecture dataflow;
 ```
-#### screen:![alt text] (https://github.com/xsmejk30/Digital-electronics-1/blob/main/digitaly.png?fbclid=IwAR3nLEXceZwbw98g-_B40AIUPXIWIC6RmsHTrhoYBw_vu8Q_8KIQ8spEoJ8?raw=true)
+#### screen:![alt text] (https://github.com/xsmejk30/Digital-electronics-1/blob/main/digitaly.png?raw=true)
 ## Part Three: Verification of Distributive laws 
 ### Link EDA:https://www.edaplayground.com/x/6Xz5
 #### code:
