@@ -1,4 +1,4 @@
-
+# Part One: Link to the repository
 ```
 | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -20,7 +20,8 @@
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 ```
 
-```vhdl
+```
+vhdl
 library ieee;
 use ieee.std_logic_1164.all;
 
