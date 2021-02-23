@@ -20,8 +20,7 @@
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 ```
 
-```
-vhdl
+``` vhdl
 library ieee;
 use ieee.std_logic_1164.all;
 
