@@ -1,5 +1,5 @@
 # Part One: Link to the repository
-
+https://github.com/xsmejk30/Digital-electronics-1/tree/main/002-logic
 # Part Two: Logic table
 | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -19,6 +19,12 @@
 | 13 | 1 1 | 1 1 | 1 | 0 | 0 |
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
+
+# Part Three: Karnaugh maps and simplified SoP form of the "greater than" function and a PoS form of the "less than" function
+
+## Karnaugh maps
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/002-logic/karnaugovy%20mapy.png?raw=true)
+
 
 ``` vhdl
 library ieee;
