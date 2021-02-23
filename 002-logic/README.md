@@ -25,6 +25,13 @@ https://github.com/xsmejk30/Digital-electronics-1/tree/main/002-logic
 ## Karnaugh maps
 ![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/002-logic/karnaugovy%20mapy.png?raw=true)
 
+## SoP and PoS
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/002-logic/Sn%C3%ADmek%20obrazovky%202021-02-23%20131549.png?raw=true)
+
+# Part Four: A 4-bit binary comparator
+## Link to EDA
+https://www.edaplayground.com/x/5uu3
+## VHDL Code
 
 ``` vhdl
 library ieee;
@@ -174,3 +181,7 @@ testbench.vhd:96:9:@700ns:(assertion error): Test failed for input combination: 
 testbench.vhd:124:9:@1us:(report note): Stimulus process finished
 Done
 ```
+## Screenshot of waveforms
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/002-logic/Sn%C3%ADmek%20obrazovky%202021-02-22%20205912.png?raw=true)
+
+
