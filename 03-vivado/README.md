@@ -138,9 +138,53 @@ end architecture testbench;
 ![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20213430.png?raw=true)
 ### 2.Otevře se nám okno s vytvořením nového projektu, klikneme na Next
 ![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20210631.png?raw=true)
-### Zde zvolíme jméno projektu a jeho umístění
+### 3.Nyní zvolíme jméno projektu a jeho umístění
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20210648.png?raw=true)
+### 4.Zvolíme typ projektu RTL 
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20210704.png?raw=true)
+### 5.Vytvoříme VHDL souce file se stejným názvem jako projekt
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20210728.png?raw=true)
+### 6.Constrain soubory nevytváříme
+### 7.Nahoře vybereme záložku Boards
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20210812.png?raw=true)
+### 8.Zvolíme desku Nexys A7-50
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20210831.png?raw=true)
+### 9.Potvrdíme vytvoření objektu
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20210847.png?raw=true)
+### 10.Předdefinujeme předdefinovat vstupy
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20211152.png?raw=true)
+### 11.Máme vytvořený projekt a v části sources otevřeme zdrojový soubor
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20210928.png?raw=true)
+### 12.Nyní náš program budeme editovat
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20211028.png?raw=true)
+## Vytvoření Test benche
+### 1.Klikneme na záložku File/Add Sources…
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20211043.png?raw=true)
+### 2.Vybereme Add or create simulation sources
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20211334.png?raw=true)
+### 3.Vytvoříme VHDL source file tb_/název/ a dokončíme
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20211118.png?raw=true)
+### 4.Pokud chceme můžeme předdefinovat vstupy
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20210912.png?raw=true)
+### 5.Test bench opět nalezneme v záložce sources
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20211210.png?raw=true)
+##  Spuštění simulace![alt text](?raw=true)
 
-![obrazek](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20210648.png?raw=true)
+### 1.Klineme na Flow/Run Simulation/ Run Behavioral simulation
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20211226.png?raw=true)
+### 2.Pro dobré zobrazení simulace použijeme funkci Zoom fi
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20211255.png?raw=true)
+## Vytvoření constrains soubor
 
-
-
+### 3.Klikneme na záložku File/Add Sources…
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/commit/26bbd19f67024ab8d3a39547b959aec3abda08e4?raw=true)
+### 4.Vybereme Add or create constrains
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20211334.png?raw=true)
+### 5.Vytvoříme nový XDC source file a potvrdíme
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20211351.png?raw=true)
+### 6.Opět otevřeme přes sources
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20211434.png?raw=true)
+### 7.Vložíme data z Githubu výrobce
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20211537.png?raw=true)
+### 8.Změníme požadované vstupy a výstupy 
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20211558.png?raw=true)
