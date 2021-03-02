@@ -1,6 +1,7 @@
 # Part One: Link to the reposiory
 https://github.com/Simon-Roubal/Digital-electronics-1/tree/main/Labs/03-vivado
 # Part Two: Table with connection of 16 slide switches and 16 LEDs on Nexys A7 board
+
 | **Part** | **Pin** | **Active** |
 | :-: | :-: | :-: |
 | LED0 | H17 | High |
