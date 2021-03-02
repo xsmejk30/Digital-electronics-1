@@ -129,5 +129,12 @@ begin
 end architecture testbench;
 ```
 ## Screenshot with simulated time waveforms
-![alt text]https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20210536.png?raw=true)
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20210536.png?raw=true)
+# Guide to Vivado
+
+## Založení projektu v programu Vivado
+
+### Klineme na záložku File/Project/New…
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20213430.png?raw=true)
+
 
