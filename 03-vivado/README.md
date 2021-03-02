@@ -134,7 +134,13 @@ end architecture testbench;
 
 ## Založení projektu v programu Vivado
 
-### Klineme na záložku File/Project/New…
+### 1.Klineme na záložku File/Project/New…
 ![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20213430.png?raw=true)
+### 2.Otevře se nám okno s vytvořením nového projektu, klikneme na Next
+![alt text](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20210631.png?raw=true)
+### Zde zvolíme jméno projektu a jeho umístění
+
+![obrazek](https://github.com/xsmejk30/Digital-electronics-1/blob/main/03-vivado/pictures/Sn%C3%ADmek%20obrazovky%202021-03-02%20210648.png?raw=true)
+
 
 
