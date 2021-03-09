@@ -212,4 +212,4 @@ end Behavioral;
               '1' when (SW > "0100")else
               '1' when (SW > "1000");
 ```
-## Screenshot with simulated time waveforms
+
