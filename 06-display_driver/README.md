@@ -1,5 +1,5 @@
 # Part one: Link to the repository
-
+https://github.com/xsmejk30/Digital-electronics-1/tree/main/06-display_driver
 # Part two: Timing diagram figure for displaying value ```3.142```
 ![obrazek](https://github.com/xsmejk30/Digital-electronics-1/blob/main/06-display_driver/Sn%C3%ADmek%20obrazovky%202021-03-23%20233856.png)
 # Part three: Display driver
