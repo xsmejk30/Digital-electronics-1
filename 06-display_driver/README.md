@@ -216,4 +216,4 @@ begin
 end architecture Behavioral;
 ```
 # Part four: Eight-digit driver
-![obrazek](https://github.com/xsmejk30/Digital-electronics-1/blob/main/06-display_driver/Sn%C3%ADmek%20obrazovky%202021-03-23%20234119.png}
+![obrazek](https://github.com/xsmejk30/Digital-electronics-1/blob/main/06-display_driver/Snímek%20obrazovky%202021-03-23%20234119.png}
