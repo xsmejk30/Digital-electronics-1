@@ -142,7 +142,7 @@ end process p_d_latch;
 ```
 ## Screenshot with simulated time waveforms
 
-![obrazek](https://user-images.githubusercontent.com/77580298/112957517-ca6d6200-9141-11eb-9186-ec311a5c4c6f.png)
+![obrazek](https://github.com/xsmejk30/Digital-electronics-1/blob/main/07-ffs/Snímek%20obrazovky%202021-03-30%20225916.png)
 
 # Flip-flops
 ## VHDL code listing of the processes ```p_d_ff_arst```, ```p_d_ff_rst```, ```p_jk_ff_rst```, ```p_t_ff_rst```
