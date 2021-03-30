@@ -573,7 +573,7 @@ end process p_d_latch;
 		report "Stimulus process finished" severity note;
 		wait;
 	end process p_stimulus;
-	```
+```
 ## Screenshot with simulated time waveforms
 ```tb_p_d_ff_arst```
 ![obrazek](https://github.com/xsmejk30/Digital-electronics-1/blob/main/07-ffs/images/tb_p_d_ff_arst.png)
