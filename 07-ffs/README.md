@@ -7,27 +7,27 @@ https://github.com/xsmejk30/Digital-electronics-1/tree/main/07-ffs
 | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
    | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | 0 | 0 | 0 | Store |
-   | ![rising](Images/eq_uparrow.png) | 0 | 1 | 0 | Store |
-   | ![rising](Images/eq_uparrow.png) | 1 | 1 | 1 | Store |
-   | ![rising](Images/eq_uparrow.png) | 1 | 0 | 1 | Store |
+   | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | 0 | 1 | 0 | Store |
+   | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | 1 | 1 | 1 | Store |
+   | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | 1 | 0 | 1 | Store |
 
    | **clk** | **j** | **k** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-: | :-- |
-   | ![rising](Images/eq_uparrow.png) | 0 | 0 | 0 | 0 | No change |
-   | ![rising](Images/eq_uparrow.png) | 0 | 0 | 1 | 1 | No change |
-   | ![rising](Images/eq_uparrow.png) | 0 | 1 | 0 | 0 | Reset |
-   | ![rising](Images/eq_uparrow.png) | 0 | 1 | 1 | 0 | Reset |
-   | ![rising](Images/eq_uparrow.png) | 1 | 0 | 0 | 1 | Set |
-   | ![rising](Images/eq_uparrow.png) | 1 | 0 | 1 | 1 | Set |
-   | ![rising](Images/eq_uparrow.png) | 1 | 1 | 0 | 1 | Invert |
-   | ![rising](Images/eq_uparrow.png) | 1 | 1 | 1 | 0 | Invert |
+   | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | 0 | 0 | 0 | 0 | No change |
+   | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | 0 | 0 | 1 | 1 | No change |
+   | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | 0 | 1 | 0 | 0 | Reset |
+   | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | 0 | 1 | 1 | 0 | Reset |
+   | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | 1 | 0 | 0 | 1 | Set |
+   | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | 1 | 0 | 1 | 1 | Set |
+   | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | 1 | 1 | 0 | 1 | Invert |
+   | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | 1 | 1 | 1 | 0 | Invert |
 
    | **clk** | **t** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
-   | ![rising](Images/eq_uparrow.png) | 0 | 0 | 0 | No change |
-   | ![rising](Images/eq_uparrow.png) | 0 | 1 | 1 | No change |
-   | ![rising](Images/eq_uparrow.png) | 1 | 0 | 1 | No change |
-   | ![rising](Images/eq_uparrow.png) | 1 | 1 | 0 | No change |
+   | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | 0 | 0 | 0 | No change |
+   | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | 0 | 1 | 1 | No change |
+   | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | 1 | 0 | 1 | No change |
+   | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | 1 | 1 | 0 | No change |
 
 # D latch
 ## VHDL code listing of the process ```p_d_latch```
