@@ -490,8 +490,6 @@ end process p_d_latch;
 		wait;
 	end process p_stimulus;
 ```
-
-```
 ```tb_p_t_ff_rst```
 ```vhdl
 	p_clk_gen : process
