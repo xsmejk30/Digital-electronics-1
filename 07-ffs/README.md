@@ -6,7 +6,7 @@ https://github.com/xsmejk30/Digital-electronics-1/tree/main/07-ffs
 
 | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
-   | ![rising](Images/eq_uparrow.png) | 0 | 0 | 0 | Store |
+   |  ![rising](Images/eq_uparrow.png) | 0 | 0 | 0 | Store |
    | ![rising](Images/eq_uparrow.png) | 0 | 1 | 0 | Store |
    | ![rising](Images/eq_uparrow.png) | 1 | 1 | 1 | Store |
    | ![rising](Images/eq_uparrow.png) | 1 | 0 | 1 | Store |
