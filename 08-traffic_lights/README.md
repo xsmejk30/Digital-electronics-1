@@ -1,18 +1,18 @@
 # Part one: Link to the repository
 
-https://github.com/Simon-Roubal/Digital-electronics-1/tree/main/Labs/08-traffic_lights
+https://github.com/xsmejk30/Digital-electronics-1/tree/main/08-traffic_lights
 
 # Part two: Preparation tasks
 
 ## Completed state table
 | **Input P** | `0` | `0` | `1` | `1` | `0` | `1` | `0` | `1` | `1` | `1` | `1` | `0` | `0` | `1` | `1` | `1` |
 | :-- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| **Clock** | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) |
+| **Clock** | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) | ![rising](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/07-ffs/Images/eq_uparrow.png) |
 | **State** | A | A | B | C | C | D | A | B | C | D | B | B | B | C | D | B |
 | **Output R** | `0` | `0` | `0` | `0` | `0` | `1` | `0` | `0` | `0` | `1` | `0` | `0` | `0` | `0` | `1` | `0` |
 
 ## Connection of RGB LEDs on Nexys A7 board
-![obrazek](https://user-images.githubusercontent.com/77580298/113700239-e12e2e80-96d6-11eb-9f92-643a61eaa730.png)
+![obrazek](https://github.com/xsmejk30/Digital-electronics-1/blob/main/08-traffic_lights/rgbleds.png)
 | **RGB LED** | **Artix-7 pin names** | **Red** | **Yellow** | **Green** |
 | :-: | :-: | :-: | :-: | :-: |
 | LD16 | N15, M16, R12 | `1,0,0` | `1,1,0` | `0,1,0` |
@@ -22,7 +22,7 @@ https://github.com/Simon-Roubal/Digital-electronics-1/tree/main/Labs/08-traffic_
 
 ## State diagram
 
-![obrazek](https://user-images.githubusercontent.com/77580298/113709637-06c13500-96e3-11eb-9022-985b93780a02.png)
+![obrazek](https://github.com/xsmejk30/Digital-electronics-1/blob/main/08-traffic_lights/state%20diagram.png)
 
 ## Listing of VHDL code of sequential process `p_traffic_fsm`
 ```vhdl
@@ -140,8 +140,8 @@ https://github.com/Simon-Roubal/Digital-electronics-1/tree/main/Labs/08-traffic_
     end process p_output_fsm;
 ```
 ## Screenshot(s) of the simulation
-![obrazek](https://user-images.githubusercontent.com/77580298/113712116-037b7880-96e6-11eb-97b8-0a84a82651ad.png)
-![obrazek](https://user-images.githubusercontent.com/77580298/113712175-17bf7580-96e6-11eb-81b6-5d6a895f63db.png)
+![obrazek](https://github.com/xsmejk30/Digital-electronics-1/blob/main/08-traffic_lights/simA.png)
+![obrazek](https://github.com/xsmejk30/Digital-electronics-1/blob/main/08-traffic_lights/simB.png)
 # Smart controller
 ## State table
 | **Current state** | **Direction South** | **Direction West** | **No cars** | **Cars West** | **Cars South** | **Cars both directions** |
@@ -151,7 +151,7 @@ https://github.com/Simon-Roubal/Digital-electronics-1/tree/main/Labs/08-traffic_
 | `goW`   | red    | green  | `goW` | `goW` | `waitW` | `waitW` |
 | `waitW` | red    | yellow | `goS` | `goS` | `goS` | `goS` |
 ## State diagram
-![obrazek](https://user-images.githubusercontent.com/77580298/113737366-42b5c380-96fe-11eb-801f-bf74b2d558e2.png)
+![obrazek](https://github.com/xsmejk30/Digital-electronics-1/blob/main/08-traffic_lights/statediagram2.png)
 ## Listing of VHDL code of sequential process `p_smart_traffic_fsm`
 ```vhdl
     p_smart_traffic_fsm : process(clk)
